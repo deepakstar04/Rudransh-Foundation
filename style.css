@@ -1,0 +1,270 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 1em;
+}
+
+/* Header Styles */
+/* Top Bar */
+.top-bar {
+    background-color: #000000;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 14px;
+}
+.top-bar span {
+    margin-right: 15px;
+}
+.social-icons {
+    margin-left: 400px;
+}
+.social-icons a {
+    padding: 10px;
+    color: #62a6ff;
+    text-decoration: none;
+}
+
+/* Header */
+header {
+    background-color: #031b36;
+    color: #fff;
+    box-shadow: 1 2px 5px rgba(0, 0, 0, 0.4);
+}
+.logo img {
+    height: 80px;
+    vertical-align: middle;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo p {
+    font-size: 12px;
+    margin: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    margin-right: 20px;
+}
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+.menu a:hover {
+    color: #f39c12;
+}
+.donate-btn {
+    background-color: #f39c12;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 30px;
+    
+}
+.donate-btn:hover {
+    background-color: #e67e22;
+}
+
+/* Hero Section */
+.hero {
+    background: url('/Img/home.png') no-repeat center center/cover;
+    color: #161616;
+    text-align: center;
+    padding: 6em 1em;
+    margin-top: 1px;
+}
+
+.hero h1 {
+    color: #ffffff;
+    font-size: 1.7em;
+    margin-bottom: 0.5em;
+}
+.hero p{
+    color: #fff
+} 
+.hero .btn {
+    background: #f04e23;
+    color: #fff;
+    padding: 0.75em 1.5em;
+    margin: 0.5em;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.hero .btn:hover {
+    background: #c63e1d;
+}
+
+/* About Section */
+.about {
+    padding: 2em 1em;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+
+.about .stats {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2em;
+    margin-top: 1em;
+}
+
+.about .stat {
+    text-align: center;
+}
+
+/* Services Section */
+.services {
+    background: #f4f4f4;
+    padding: 2em 1em;
+    text-align: center;
+}
+
+.services-grid {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    margin-top: 1em;
+}
+
+.service {
+    background: #fff;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+/* Donate Section */
+.cases{
+    background: #f4f4f4;
+    padding: 2em 1em;
+    text-align: center;
+    display: flex;
+}
+
+.donate {
+    padding: 2em 1em;
+    text-align: center;
+}
+
+.donate form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.donate input {
+    padding: 0.5em;
+    margin: 0.5em 0;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.donate .btn {
+    background: #f04e23;
+    color: #fff;
+    padding: 0.75em 1.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.donate .btn:hover {
+    background: #c63e1d;
+}
+.donate-img {
+    width: 50%;
+    margin-right: 1em;
+}
+.donate-img img {
+    width: 100%;
+    border-radius: 50px;
+    margin-right: -200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 4.1)
+}
+@media (max-width: 768px) {
+    .donate-img {
+        width: 100%;
+        margin-right: 0;
+        display: flex;
+    }
+}
+/* Contact Section */
+.contact {
+    background: #f4f4f4;
+    padding: 2em 1em;
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact input, .contact textarea {
+    padding: 0.5em;
+    margin: 0.5em 0;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact .btn {
+    background: #f04e23;
+    color: #fff;
+    padding: 0.75em 1.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact .btn:hover {
+    background: #c63e1d;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
